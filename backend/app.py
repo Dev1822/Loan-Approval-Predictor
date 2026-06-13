@@ -1,9 +1,6 @@
 from flask import Flask, request, jsonify
 import joblib
-import numpy as np
 from flask_cors import CORS
-import os
-import gdown
 
 app = Flask(__name__)
 CORS(app)
