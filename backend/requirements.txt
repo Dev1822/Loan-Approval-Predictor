@@ -1,7 +1,8 @@
 flask
 flask-cors
 pandas
-scikit-learn
+scikit-learn==1.8.0
 xgboost
 joblib
 numpy
+gunicorn
