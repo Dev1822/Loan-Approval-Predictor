@@ -1,7 +1,0 @@
-commit_script.ps1
-.env
-__pycache__/
-*.pyc
-venv/
-env/
-.DS_Store
