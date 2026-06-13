@@ -55,7 +55,8 @@ function App() {
         if (payload[field]) payload[field] = parseFloat(payload[field]);
       });
 
-      const response = await fetch('http://localhost:5000/predict', {
+      const API_URL = import.meta.env.VITE_API_URL;
+      const response = await fetch(`${API_URL}/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
